@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <sample.xiangkai.com.demo.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:left_line_color="#3bd823"
+        app:text_rate_color="#00ff00"/>
+
+    <sample.xiangkai.com.demo.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:left_line_color="#ff0000"
+        app:text_rate_color="#0088ff"/>
+
+    <sample.xiangkai.com.demo.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:left_line_color="#ffae00"
+        app:text_rate_color="#ee44aa"/>
+</LinearLayout>
